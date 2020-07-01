@@ -4,7 +4,7 @@ import Login from "./Login";
 import Chat from "./Chat";
 
 //main socket connection
-const socket = io.connect('http://localhost:5000')
+const socket = io.connect('https://polar-fortress-06697.herokuapp.com/')
 
 export default function App() {
 
